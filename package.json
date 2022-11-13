@@ -1,6 +1,6 @@
 {
-  "name": "cssjson",
-  "version": "3.0.0",
+  "name": "cssToJson",
+  "version": "4.0.0",
   "description": "Converts CSS to JSON and back.",
   "main": "dist/index.js",
   "types": "dist/src/index.d.ts",
@@ -29,7 +29,7 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Aram Kocharyan https://github.com/aramk"
+    "name": "windboy"
   },
   "bugs": {
     "url": "https://github.com/aramk/CSSJSON/issues"
@@ -48,6 +48,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aramk/CSSJSON.git"
+    "url": "git+https://github.com/happyWindBoy-dev/CssToJson"
   }
 }

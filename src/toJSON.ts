@@ -81,7 +81,7 @@ export const toJSON = function (
               node.children[sel].attributes[att] = newNode.attributes[att];
             }
           } else {
-            node.children[sel] = newNode;
+            node.children[sel] = JSON.parse(JSON.stringify(newNode));
           }
         }
       }
